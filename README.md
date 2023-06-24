@@ -1,6 +1,6 @@
 # menuRestaurant_TEAM_NOCHE
-Este es el menu restaurant del equipo TEAM NOCHE 
-trabajo integrador 3 semestre 2023
+Este es el menu restaurant del equipo TEAM NOCHE         
+trabajo integrador 3 semestre 2023    
 • [Alvarenga, Analia](https://github.com/RastaLunaRL)  
 • [Contreras, Yamila](https://github.com/Yami-Contreras)  
 • [González, María Del Carmen](https://github.com/uninstallrar)  
