@@ -36,6 +36,32 @@ def logo():
     print("                              Restaurante de comida mexicana.")
     print("")
 
+#codigo agregado por la alumna ANALIA ALVARENGA(Luna)
+#Función para crear la tabla en la base de datos
+def crear_tabla():      
+#Establecer la conexión con la base de datos PostgreSQL
+
+    conexion = psycopg2.connect(
+        user='postgres',
+        password='admin',
+        host='127.0.0.1',
+        port='5432',
+        database='menu'
+    )
+
+    cursor = conexion.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS pedidos (
+            id SERIAL PRIMARY KEY,
+            nombre VARCHAR(100),
+            total FLOAT
+        )
+    ''')
+    conexion.commit()
+
+    #Cerrar la conexión con la base de datos
+    conexion.close()
+
 
 
 
