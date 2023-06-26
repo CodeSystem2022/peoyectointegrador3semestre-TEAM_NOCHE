@@ -1,3 +1,4 @@
+# Realizado por Carlos Hernan Suarez
 class Pedido:
     def __init__(self, nombre):
         self.nombre = nombre
