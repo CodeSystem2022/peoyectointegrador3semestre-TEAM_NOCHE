@@ -35,3 +35,22 @@ def logo():
     time.sleep(0.1)
     print("                              Restaurante de comida mexicana.")
     print("")
+
+
+
+
+
+
+
+
+
+
+
+
+# Función para verificar si una opción es válida
+def es_opcion_valida(opcion, max_opcion):
+    try:
+        opcion_num = int(opcion)
+        return opcion_num >= 1 and opcion_num <= max_opcion
+    except ValueError:
+        return False
