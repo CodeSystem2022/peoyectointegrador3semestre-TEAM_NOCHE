@@ -67,6 +67,8 @@ def crear_tabla():
 # Llamada a la función logo
 logo()
 
+# Establecer la conexión con la base de datos PostgreSQL y crear la tabla si no existe
+crear_tabla()
 
 #Código incorporado por MARLENE SORIANO
 
