@@ -25,7 +25,7 @@ def logo():
     time.sleep(0.1)
     print("        | |_  |  _  | |  _ \  | | \ | |  _  | | |__      ")
     time.sleep(0.1)
-    print("        |_| || || || || || || || || |__|         by TEAM NOCHE")
+    print("        |____| |_| |_| |_| |_| |_| |_| |_| |_| |_____|         by TEAM NOCHE")
     time.sleep(0.1)
     print("")
     time.sleep(0.1)
