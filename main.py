@@ -70,6 +70,11 @@ logo()
 # Establecer la conexión con la base de datos PostgreSQL y crear la tabla si no existe
 crear_tabla()
 
+# Crear instancia de Pedido
+nombre = input("Ingrese su nombre: ")
+pedido = Pedido(nombre)
+
+
 #Código incorporado por MARLENE SORIANO
 
 # Agregar comidas al menú
