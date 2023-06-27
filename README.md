@@ -1,4 +1,4 @@
-# menuRestaurant: TEAM NOCHE       tercer semestre                   
+Menu Restaurant: TEAM NOCHE       tercer semestre                   
 Trabajo Integrador 3 semestre 2023         
 Este es el menu restaurant del equipo TEAM NOCHE   
 • [Alvarenga, Analia](https://github.com/RastaLunaRL)  
