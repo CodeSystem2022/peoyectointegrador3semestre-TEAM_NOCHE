@@ -80,6 +80,7 @@ menu = Menu()
 #Código incorporado por MARLENE SORIANO
 
 # Agregar comidas al menú
+
 menu.agregar_comida(Quesadillas())
 menu.agregar_comida(Tacos())
 menu.agregar_comida(Tamales())
