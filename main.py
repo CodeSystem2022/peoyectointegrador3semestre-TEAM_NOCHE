@@ -77,7 +77,7 @@ pedido = Pedido(nombre)
 # Crear instancia de Menu
 menu = Menu()
 
-#Código incorporado por MARLENE SORIANO
+# MARLENE SORIANO
 
 # Agregar comidas al menú
 
@@ -86,9 +86,6 @@ menu.agregar_comida(Tacos())
 menu.agregar_comida(Tamales())
 menu.agregar_comida(Burritos())
 menu.agregar_comida(Botanas())
-
-
-
 
 #Código agregado por Maria del carmen Gonzalez (Maru)
 # Función para verificar si una opción es válida
