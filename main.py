@@ -74,6 +74,8 @@ crear_tabla()
 nombre = input("Ingrese su nombre: ")
 pedido = Pedido(nombre)
 
+# Crear instancia de Menu
+menu = Menu()
 
 #Código incorporado por MARLENE SORIANO
 
