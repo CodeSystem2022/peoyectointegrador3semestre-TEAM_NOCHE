@@ -1,4 +1,4 @@
-#Alumno Alfredo Marino
+#Alfredo Marino
 #vamos a introducir la clase menu del restaurante.
 
 class Menu:
