@@ -64,10 +64,14 @@ def crear_tabla():
 
 
 
+#Código incorporado por MARLENE SORIANO
 
-
-
-
+# Agregar comidas al menú
+menu.agregar_comida(Quesadillas())
+menu.agregar_comida(Tacos())
+menu.agregar_comida(Tamales())
+menu.agregar_comida(Burritos())
+menu.agregar_comida(Botanas())
 
 
 
