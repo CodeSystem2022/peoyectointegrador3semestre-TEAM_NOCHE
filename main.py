@@ -72,7 +72,7 @@ def crear_tabla():
 
 
 
-
+#Código agregado por Maria del carmen Gonzalez (Maru)
 # Función para verificar si una opción es válida
 def es_opcion_valida(opcion, max_opcion):
     try:
