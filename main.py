@@ -62,6 +62,10 @@ def crear_tabla():
     #Cerrar la conexión con la base de datos
     conexion.close()
 
+# FRANCO J. VIDELA
+
+# Llamada a la función logo
+logo()
 
 
 #Código incorporado por MARLENE SORIANO
