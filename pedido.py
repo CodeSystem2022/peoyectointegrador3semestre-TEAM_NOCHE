@@ -49,25 +49,25 @@ class Bebida:
 
 class Margarita(Bebida):
     def __init__(self):
-        super()._init_("Margarita", 12.0)
+        super().__init__("Margarita", 12.0)
 
 
 class Gaseosa(Bebida):
     def __init__(self):
-        super()._init_("Gaseosa", 5.0)
+        super()._:init__("Gaseosa", 5.0)
 
 
 class Cerveza(Bebida):
     def __init__(self):
-        super()._init_("Cerveza", 6.0)
+        super().__init__("Cerveza", 6.0)
 
 
 class Tequila(Bebida):
     def __init__(self):
-        super()._init_("Tequila", 10.0)
+        super().__init__("Tequila", 10.0)
 
 
 class Agua(Bebida):
     def __init__(self):
-        super()._init_("Agua", 2.0)
+        super().__init__("Agua", 2.0)
 #____________________________________________________________________________________________________________________________________________________________________________
