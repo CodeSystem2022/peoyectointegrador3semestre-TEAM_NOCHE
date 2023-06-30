@@ -87,6 +87,18 @@ menu.agregar_comida(Tamales())
 menu.agregar_comida(Burritos())
 menu.agregar_comida(Botanas())
 
+# Alumna Yamila Belen Contreras
+
+# Agregar bebidas al menú
+
+menu.agregar_bebida(Margarita())
+menu.agregar_bebida(Gaseosa())
+menu.agregar_bebida(Cerveza())
+menu.agregar_bebida(Tequila())
+menu.agregar_bebida(Agua())
+
+subtotal = 0.0
+
 #Código agregado por Maria del carmen Gonzalez (Maru)
 # Función para verificar si una opción es válida
 def es_opcion_valida(opcion, max_opcion):
