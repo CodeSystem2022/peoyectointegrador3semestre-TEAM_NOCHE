@@ -42,32 +42,32 @@ class Burritos(Comida):
 #Realizado por Florencia Pons 
 #Incorporamos la clase bebida al menú
 class Bebida:
-    def _init_(self, nombre, precio):
+    def __init__(self, nombre, precio):
         self.nombre = nombre
         self.precio = precio
 
 
 class Margarita(Bebida):
-    def _init_(self):
+    def __init__(self):
         super()._init_("Margarita", 12.0)
 
 
 class Gaseosa(Bebida):
-    def _init_(self):
+    def __init__(self):
         super()._init_("Gaseosa", 5.0)
 
 
 class Cerveza(Bebida):
-    def _init_(self):
+    def __init__(self):
         super()._init_("Cerveza", 6.0)
 
 
 class Tequila(Bebida):
-    def _init_(self):
+    def __init__(self):
         super()._init_("Tequila", 10.0)
 
 
 class Agua(Bebida):
-    def _init_(self):
+    def __init__(self):
         super()._init_("Agua", 2.0)
 #____________________________________________________________________________________________________________________________________________________________________________
