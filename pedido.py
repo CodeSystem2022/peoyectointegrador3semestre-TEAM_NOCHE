@@ -54,7 +54,7 @@ class Margarita(Bebida):
 
 class Gaseosa(Bebida):
     def __init__(self):
-        super()._:init__("Gaseosa", 5.0)
+        super().__init__("Gaseosa", 5.0)
 
 
 class Cerveza(Bebida):
